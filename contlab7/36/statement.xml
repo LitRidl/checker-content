@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="36" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;36</title>
+
+    <description><p>Подсчет в натуральной системе {|} числа четных членов в последовательности десятичных чисел, разделенных ";".</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой последовательность десятичных чисел, разделенных ";".</p><br/>
+    </input_format>
+
+    <output_format><p>Число в натуральной системе, счетчик четных чисел в исходной последовательности.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>10;2;3;1;5;12</pre></input>
+      <output><pre>|||
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

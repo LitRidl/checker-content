@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="11" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;11</title>
+
+    <description><p>Перевод числа из шестнадцатиричной системы счисления в четверичную (логарифмическая сложность).</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке записано целое беззнаковое число произвольной длины в шестнадцатиричной системе счисления, возможно с ведущими нулями</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (число в четверичной системе счисления, номинально равное исходному без ведущих нулей) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>C352F0</pre></input>
+      <output><pre>C352F0 300311023300
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="45" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;45</title>
+
+    <description><p>Проверка геометрической прогрессии трех десятичных чисел.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке записаны через пробел три десятичных числа.</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (0 или 1 -- результат проверки) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>2 4 8</pre></input>
+      <output><pre>2 4 8 1
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

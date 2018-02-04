@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="18" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;18</title>
+
+    <description><p>Вычисление поразрядной дизъюнкции исходных чисел.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой два беззнаковых двоичных числа (возможно, с ведущими нулями), разделенные знаком "|".</p><br/>
+    </input_format>
+
+    <output_format><p>Двоичное число, результат поразрядной дизъюнкции.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>100010|110011</pre></input>
+      <output><pre>110011
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

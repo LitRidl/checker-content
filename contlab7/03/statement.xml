@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="3" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;3</title>
+
+    <description><p>Составить алгоритм копирования числа.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой троичное число без знака.</p><br/>
+    </input_format>
+
+    <output_format><p>Результат должен состоять из исходного числа и его копии, разделенных знаком "=".</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>123456</pre></input>
+      <output><pre>123456=123456
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

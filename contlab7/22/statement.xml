@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="22" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;22</title>
+
+    <description><p>Составить алгоритм получения десятичного дополнительного кода для отрицательного числа с тем же абсолютным значением.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой десятичную запись (возможно, с ведущими нулями) целого неотрицательного числа в прямом коде.</p><br/>
+    </input_format>
+
+    <output_format><p>Десятичное число, дополнительный код отрицательного числа с тем же абсолютным значением.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>283764</pre></input>
+      <output><pre>9716236
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

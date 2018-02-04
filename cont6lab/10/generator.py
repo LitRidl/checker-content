@@ -1,0 +1,86 @@
+from __future__ import print_function
+from random import shuffle, randint, choice
+from numpy import base_repr
+import sys
+
+HEX_DIGITS = '0123456789ABCDEF'
+
+
+def rnd(l, r, base=10):
+    return base_repr(randint(l, r), base=base)
+
+
+def rnd_word(length, prefix=' ', alphabet=HEX_DIGITS):
+    word = ''.join(choice(alphabet) for _ in range(length))
+    return (choice(prefix) + word).lstrip(' ') or '0' # .lstrip('0')
+
+
+def generate_test1(params):
+    a = rnd_word(randint(*params['word_len'][0]),
+                 alphabet=HEX_DIGITS[:params['word_radix'][0]],
+                 prefix=params['word_prefix'][0])
+    return '{0}'.format(a.strip())
+
+
+def generate_test2(params):
+    a = rnd_word(randint(*params['word_len'][0]),
+                 alphabet=HEX_DIGITS[:params['word_radix'][0]],
+                 prefix=params['word_prefix'][0])
+    b = rnd_word(randint(*params['word_len'][1]),
+                 alphabet=HEX_DIGITS[:params['word_radix'][1]],
+                 prefix=params['word_prefix'][0])
+    return '{0} {1}'.format(a.strip(), b.strip())
+
+
+def generate_test2_par(params):
+    while True:
+        _a = randint(*(params['word_len'][0]))
+        _b = randint(*(params['word_len'][1]))
+        if _a > _b:
+            break
+    a = _a
+    b = _b
+    return '{0} {1}'.format(a.strip(), b.strip())
+
+
+def seq_tests1(var1_bounds, var2_bounds, base=10):
+    test_idx = 2
+    for a in range(*var1_bounds):
+        with open('tests/{0:03d}.dat'.format(test_idx), 'w') as f:
+            res = '{0}'.format(base_repr(a, base).strip())
+            f.write(res)
+            test_idx += 1
+
+
+def seq_tests2(var1_bounds, var2_bounds, base=10):
+    test_idx = 2
+    for a in range(*var1_bounds):
+        for b in range(*var2_bounds):
+            if a <= b:
+                continue
+            with open('tests/{0:03d}.dat'.format(test_idx), 'w') as f:
+                res = '{0} {1}'.format(base_repr(a, base).strip(), base_repr(b, base).strip())
+                f.write(res)
+                test_idx += 1
+
+def rnd_tests(test_first=66, nums=2, tests=40):
+    params = {
+        'word_len': [(2, 8), (2, 11)],
+        'word_radix': [4, 4],
+        'word_prefix': [' ', ' '] # can be '     +-', for example
+    }
+
+    for test_idx in range(test_first, test_first + tests):
+        with open('tests/{0:03d}.dat'.format(test_idx), 'w') as f:
+            if nums == 1:
+                f.write(generate_test1(params))
+            elif nums == 2:
+                f.write(generate_test2(params))
+
+
+if __name__ == '__main__':
+    if sys.argv[1] == 's' or len(sys.argv):
+        seq_tests1([0, 65], [0, 0], base=4)
+        # seq_tests2([0, 11], [0, 11], base=10)
+    if sys.argv[1] == 'r':
+        rnd_tests(test_first=67, nums=1, tests=40)

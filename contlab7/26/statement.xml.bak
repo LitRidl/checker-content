@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="26" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;26</title>
+
+    <description><p>Составить алгоритм декрементирования целого неотрицательного шестнадцатеричного числа.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой целое неотрицательное шестнадцатеричное число (возможно, с ведущими нулями).</p><br/>
+    </input_format>
+
+    <output_format><p>Шестнадцатеричное число, результат уменьшения на единицу исходного числа.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>DEADBEEF</pre></input>
+      <output><pre>DEADBEEE
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

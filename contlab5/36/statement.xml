@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="36" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;36</title>
+
+    <description><p>Вычисление разности двух двоичных чисел без знака, при условии, что первое число больше второго.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записано два беззнаковых числа произвольной длины в двоичной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (двоичное число без ведущих нулей, являющееся разностью исходных чисел) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>111011 11010</pre></input>
+      <output><pre>111011 11010 100001
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

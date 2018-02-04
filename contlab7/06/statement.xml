@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="6" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;6</title>
+
+    <description><p>Составить алгоритм перевода числа из девятеричной системы счисления в троичную.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой беззнаковое девятеричное число (возможно, с ведущими нулями).</p><br/>
+    </input_format>
+
+    <output_format><p>Троичное число, равное исходному девятериному, без ведущих нулей.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>00183276</pre></input>
+      <output><pre>12210022120
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="12" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;12</title>
+
+    <description><p>Вычисление произведения двух неотрицательных чискл в шестнадцетеричной системе счисления.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записаны два целых беззнаковых числа произвольной длины в шестнадцатиричной системе счисления, возможно с ведущими нулями</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (число являющееся произведением исходных чисел без ведущих нулей) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>65D899 C3007D4</pre></input>
+      <output><pre>65D899 C3007D4 4D942E5F38DB4
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

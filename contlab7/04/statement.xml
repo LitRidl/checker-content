@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="4" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;4</title>
+
+    <description><p>Составить алгоритм реверса (инвертирования) числа (записи его цифр в обратном порядке).</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой троичное число без знака.</p><br/>
+    </input_format>
+
+    <output_format><p>Троичное число, цифры которого записаны в обратном порядке.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>121212</pre></input>
+      <output><pre>212121
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="46" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;46</title>
+
+    <description><p>Перевод числа из девятеричной системы счисления в троичную.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке записано целое беззнаковое число произвольной длины в девятеричной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (число в троичной системе счисления, номинально равное исходному) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>238046157</pre></input>
+      <output><pre>238046157 21022001120011221
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

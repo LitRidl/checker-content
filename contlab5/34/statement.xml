@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="34" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;34</title>
+
+    <description><p>Получение двоичного числа, противоположного данному, в обратной кодировке.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке записано число произвольной длины в двоичной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (двоичное число, противоположное данному, представленное в обратном коде) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>-111011</pre></input>
+      <output><pre>-111011 0111011
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

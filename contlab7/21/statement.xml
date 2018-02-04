@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="21" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;21</title>
+
+    <description><p>Вычислить наибольший общий делитель исходных чисел.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой два беззнаковых двоичных числа (возможно, с ведущими нулями), разделенные знаком "%".</p><br/>
+    </input_format>
+
+    <output_format><p>Двоичное число, наибольший общий делитель исходных чисел.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>10000010%101010</pre></input>
+      <output><pre>10
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

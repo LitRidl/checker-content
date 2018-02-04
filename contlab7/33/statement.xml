@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="33" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;33</title>
+
+    <description><p>Составить алгоритм перевода четверичного числа в шестнадцатеричную систему счисления.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой беззнаковое четверичное число (возможно, с ведущими нулями).</p><br/>
+    </input_format>
+
+    <output_format><p>Шестнадцатеричное число, равное исходному четверичному, без ведущих нулей.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>01231</pre></input>
+      <output><pre>6D
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="47" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;47</title>
+
+    <description><p>Перевод числа из двоичной системы счисления в восьмеричную с логарифмической сложностью.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке записано целое беззнаковое число произвольной длины в двоичной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (число в восьмеричной системе счисления, номинально равное исходному) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>11011</pre></input>
+      <output><pre>11011 33
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="39" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;39</title>
+
+    <description><p>Вычисление НОД (наибольшего общего делителя) двух двоичных чисел.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записано два беззнаковых числа произвольной длины без ведущих нулей в двоичной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (НОД двух чисел, записанный в двоичной системе счисления без ведущих нулей) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>10101 1111</pre></input>
+      <output><pre>10101 1111 11
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

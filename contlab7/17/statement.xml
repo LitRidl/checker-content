@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="17" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;17</title>
+
+    <description><p>Вычисление поразрядной конъюнкции исходных чисел.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой два беззнаковых двоичных числа (возможно, с ведущими нулями), разделенные знаком "&amp;".</p><br/>
+    </input_format>
+
+    <output_format><p>Двоичное число, результат поразрядной конъюнкции.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>11000011&amp;100111111</pre></input>
+      <output><pre>11
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

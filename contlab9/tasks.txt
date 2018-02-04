@@ -1,0 +1,119 @@
+i * max(j, l) mod 30 + j min(i, l) mod 20 + k
+min(i, max(j, min(l, max(i − l, j − l))))
+sign(k − 10) |i − j + l − k|
+
+|i − j + l| div (3 − sign(i − j + k)) + 10
+|i + j − l| div (3 − sign(j − i + k)) + 10
+max(i * j, j * l) mod 40
+
+max(min(i + j − l − k, i − j + l − k), min(k + i − j − l, k − i − j + l))
+j + (l * sign(j)) mod 20 + k * sign(i) mod 10
+|i − j + l − k| * sign(i) * sign(j)
+
+(min(i + j, i + l) * (k + 1)) mod 30
+j + (l * sign(j)) mod 20 + (k * sign(i)) mod 10
+max(i * j, i * l, j * l) mod 30
+
+max(j − k, l − k) mod 30 + max(i + l, j + k) mod 20
+(|i − l| * sign(j + k) + |i − k| * (j + k)) mod 20
+(i + k) * (j − k) * (l + k) mod 25
+
+min(l mod 5, (i * k) mod 5) + j + k div 3
+max(−3 * i, 2 * j) div 5 − |j − l|
+j + l mod 7 + (k * sign(i)) mod 10
+
+|k − 15| − min(div(i, 3), (j + l) mod 10) − 20
+div(−(j + k), 5) + |mod(i * l, 8)|
+max(mod(i + j, 15), mod(l + k, 14))
+
+((i + j + l) * (k + 1) mod 25 − i * j * l * (k + 2)) mod 10 + 10
+min((i + j + l) * (k + 3) mod 25, i * j * l * (k + 4) mod 25) + 10
+2 * sign(l) |((i + j + l) * (k + 5)) mod 10 - (i * j * l * (k + 6)) mod 25|
+
+(|max(i(k + 5), j(k + 6))| − |min(j * (k + 7), l * (k + 8))|) mod 20
+(3 − sign(i − j)) * |min(i * l + 5, j * l − 3, i * j + 6)| mod 25 − 7
+mod(i, 10) + mod(j, 10) + mod(l, 10)
+
+mod(i + k) * (j − k) * (l + k), 25)
+mod(min(i + k, max(j − k, l − k)), 30)
+|j − l| * sign(i) − |i − l| * sign(j)
+
+div(i, 3) − |i − k| * sign(l − j)
+mod(j, 10) − mod(max(i, l), k + 1)
+i + mod(j * k, 5) + div(l, 5) + 3
+
+sign min(i, j) * max ((i + k) mod 20, (j + l) mod 20)
+|max(i, j)| - k min(j, l)
+(k − l) div ((i + j + l) * (i + j + l) mod 5 + 1)
+
+((i + j) mod 30) div (mod(|l|, 5) + 1) + ((i + l) mod 30) div (|j| mod 5 + 1)
+max(ki, (k + 1)j) mod 20 − |j − l| div 10
+|j − l| div 10 + min((i + l) mod 20, jk mod 20) − 10
+
+mod(i * 3 − j * 3 + l * 3 − k), 20)
+mod(min(i * j * 2 − k, i * 2l − k, j * l * 2 − k), 30)
+mod(max(i * j * 2 − k, i * 2l − k, j * l * 2 − k), 30)
+
+max(mod(47 * i, 25), min(mod(47 * j, 30), 47 * mod(l, 30))) − mod(k, 15)
+min(max(47i mod 25, 47j mod 25), 47 * mod(l, 30)) + mod(k, 5)
+47i * j * l mod 25 + k mod 5
+
+|i − l| + min(mod(j, 10), mod(l * k, 10)) − 20
+mod(max(k − i, min(j, max(i − l, j − l))), 30)
+mod(2 * l, 20) − max(i, j) mod (k + 1)
+
+sign(i + 1) * ||k − j| − |i − l||
+mod(j, 20) + max(mod(i, 20), min(j − k, l − k)) − 10
+k * (i + 1) * (j + 2) * mod(l + 3, 20)
+
+(i * j div (|l| + 1) + j * l div (|i| + 1) + i * l div (|j| + 1)) mod 30
+i max(j, l) mod 20 + j * min(i, l) mod 30 − k
+max(i * j, i * l, j * l) mod 30 + 20
+
+(i min(j, l) + j min(i * l) + k * 2) mod 20
+(i mod 10 − k) * (j mod 10 + k) * (l mod 10 − k) mod 25
+max(min(i + j, i + l) mod 25, max(i + l, j + k) mod 20) + 10
+
+(|i − j| * l − |j − l| * i + |i − l| * j) mod 20 − k
+min(i, j) * max(j, l) min(i, l) mod 25 + 5 sign(i) + k
+|l| * sign(i − j) − |i| * sign(j − l) + |j| * sign(i − l)
+
+max(min(i − j, j − l) mod 20, min(i − l, j − k) mod 20) + 10
+sign(i − j) * min(mod(i, 20), mod(j, 20)) − max(|i − l|, |k − 20|) mod 20 + 20
+mod(i, 10) * mod(j, 20) + mod(l, 10)
+
+((i + j) mod |min(j − l, l − k)| + 1 − k) mod 20 + 10
+max((i + j) div (2 + sign(j * l − i * k)), (j + l) div (2 + sign(i * j − l * k))) − 10
+mod(max(i, j) * min(i, l), 30)
+
+mod(min(max(min(i − j, i − l), j − l), i − k), 30)
+mod(max(min(max(i − j, i − l), j − l), i − k), 30)
+mod(i, 30) − mod(j, 30) + mod(l, 30) − mod(k, 30)
+
+((i − k) * max(j, l) + (j − k) * min(i, l) + (l − k) * max(i, j)) mod 23
+−((i − k) * min(j, l) + (j − k) * max(i, l) + (l − k) * min(i, j)) mod 27
+|i + j − l − k| * sign(i − j + l − k)
+
+mod(div(i * 2, |j − l| + 1 + k) − div(2 * j, |i − l| + k), 30)
+sign(l) * min(i, j) − sign(j) * max(i, l) + k
+mod((i − j) * (j − l) * (l − i)), 20)
+
+|(max(mod(min(i + j, i + l), 30), mod(max(i + l, j + k), 25))|
+mod(|i + k|, 10) + mod(|j + k|, 10) + mod(|l + k|, 10)
+mod(((i * i * i) + (j * j * j) + (l * l * l) - k), 35)
+
+mod(|(i + k) * (j + 2 * k) * (l + 3 * k)|, 35)
+sign(max(i, j)) * min(mod(i + k, 20), mod(j + l, 20))
+div(i, 3) - |i - k| * sign(l - j)
+
+i * mod(max(j, l), 20) + j * mod(min(i, l), 30) + k
+(mod(|(i - j + l - k)| * sign(k - 10), 20))
+mod((|i - j| * l - |j - l| * i + |i - l| * j), 20) - k
+
+mod(max(max(i * j, i * l), j * l), 30) + k
+|j - l| * sign(i) - |i - l| * sign(j)
+min(i, max(j, min(l, max(i - l, j - l))))
+
+mod(|sign(i - j) * l - sign(j - l) * i + sign(i - l) * j - k|, 35)
+mod(i * max(j, l), 30) + mod(j * min(i, l), 20) - k
+mod((i + k) * (j - k) * (l + k), 25)

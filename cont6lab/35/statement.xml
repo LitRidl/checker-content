@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="35" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;35</title>
+
+    <description><p>Восстановление целого числа в восьмеричной системе счисления по обратному коду.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке записано число в восьмеричной системе счисления, являющееся обратным кодом искомого числа</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (восьмеричное число (возможно отрицательное), восстановленное из данного обратного кода) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>60342715</pre></input>
+      <output><pre>60342715 -17435062
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

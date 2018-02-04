@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="42" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;42</title>
+
+    <description><p>Зеркальное отражение двух двоичных слов относительно промежутка между ними.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записано два беззнаковых числа произвольной длины в двоичной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (два исходных беззнаковых числа, расположенных зеркально относительно промежутка между ними) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>11010 0111011</pre></input>
+      <output><pre>11010 0111011 1101110 01011
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="29" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;29</title>
+
+    <description><p>Натурализация десятичного числа в позиционной записи (перевод в единичную систему счисления {|}).</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой десятичную запись (возможно, с ведущими нулями) целого неотрицательного числа.</p><br/>
+    </input_format>
+
+    <output_format><p>Слово в единичной системе счисления {|}, номинально равное исходному.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>13</pre></input>
+      <output><pre>|||||||||||||
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

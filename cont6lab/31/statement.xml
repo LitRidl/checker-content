@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="31" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;31</title>
+
+    <description><p>Получение обратной кодировки двоичного отрицательного числа с тем же абсолютным значением</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке задано неотрицательное двоичное число</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (отрицательное число, полученное из исходного с помощью обратного кода) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>101</pre></input>
+      <output><pre>101 1010
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="{{id}}" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;{{id}}</title>
+
+    <description><p>На вход подаётся пакет тестов, содержащий набор квадратных матриц. Каждую матрицу, поданную на вход, необходимо обработать согласно заданию: {{task}}.</p>
+    </description>
+
+    <input_format><p>В первой строке задаются два числа &mdash; количество <b>0 &le; t &le; 50</b> тестов и максимальный размер <b>n &ge; 0</b> матрицы, которая встретится среди тестов.</p>
+    <p>Далее в первой строке каждого теста указан размер <b>m &le; n</b> матрицы, за которым следуют не превосходящие по модулю 45 тысяч целочисленные элементы матрицы.</p>
+    </input_format>
+
+    <output_format><p>Ответ ({{answer_type}}) на каждый тест должен начинаться с новой строки.</p>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>2 3
+3
+{{matrix}}
+1
+1000 </pre></input>
+      <output><pre>{{test_out}}</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

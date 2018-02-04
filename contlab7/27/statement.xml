@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="27" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;27</title>
+
+    <description><p>Составить алгоритм, восстанавливающий целое шестнадцатеричное число по его дополнительному коду.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой дополнительный код целого шестнадцатеричного числа (возможно, с ведущими нулями).</p><br/>
+    </input_format>
+
+    <output_format><p>Шестнадцатеричное число, восстановленное из исходного.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>DEADBEEF</pre></input>
+      <output><pre>-21524111
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

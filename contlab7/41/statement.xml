@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="41" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;41</title>
+
+    <description><p>Вычисление троичного логарифма троичного числа.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой беззнаковое троичное число.</p><br/>
+    </input_format>
+
+    <output_format><p>Троичное число, являющееся двоичным логарифмом исходного числа.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>1000</pre></input>
+      <output><pre>10
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

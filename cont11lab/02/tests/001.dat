@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void)
+{
+    int a = 5, b = 15;
+    /* this
+        is
+        comment
+    */
+    printf("%d", a + b); /*
+    comment*/
+    return 0;
+}

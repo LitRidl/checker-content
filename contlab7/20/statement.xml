@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="20" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;20</title>
+
+    <description><p>Обменять исходные числа местами.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой два троичных числа без знака (возможно, с ведущими нулями), разделенных знаком "^".</p><br/>
+    </input_format>
+
+    <output_format><p>Два троичных числа,  разделенные знаком "^", обменянные местами.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>12020^10012</pre></input>
+      <output><pre>10012^12020
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

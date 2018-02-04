@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="23" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;23</title>
+
+    <description><p>Умножение двух чисел в кардинальной системе счисления {|}.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записано два беззнаковых числа произвольной длины в кардинальной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (число в кардинальной системе счисления, которое является произведением исходных чисел) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>||| ||</pre></input>
+      <output><pre>||| || |||
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

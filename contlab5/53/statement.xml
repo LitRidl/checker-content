@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="53" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;53</title>
+
+    <description><p>Четверичное сложение двоичного и четверичного числа.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записано два беззнаковых числа произвольной длины первое в двоичной системе счисления, второе в четверичной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (число в четверичной системе счисления, являющееся суммой исходных чисел) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>11011 123</pre></input>
+      <output><pre>11011 123 312
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

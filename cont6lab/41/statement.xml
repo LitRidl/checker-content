@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="41" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;41</title>
+
+    <description><p>Вычисление наибольшего общего кратного двух чисел в десятичной системе счисления. (Подсказка: НОК(m, n) * НОД(m, n) = m * n)</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записаны два целых числа произвольной длины в десятичной системе счисления, возможно с ведущими нулями</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (число в десятичной системе счисления) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>1598534 908</pre></input>
+      <output><pre>1598534 908 3197068
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

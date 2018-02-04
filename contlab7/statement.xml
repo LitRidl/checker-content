@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="{{id}}" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;{{id}}</title>
+
+    <description><p>{{task}}</p><br/>
+    </description>
+
+    <input_format><p>{{input_type}}</p><br/>
+    </input_format>
+
+    <output_format><p>{{answer_type}}</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>{{test_in}}</pre></input>
+      <output><pre>{{test_out}}</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

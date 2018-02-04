@@ -1,0 +1,17 @@
+Program comments;
+  Var a,b:Integer;
+  Begin
+    (* First *)
+    a:=0;
+    b:=10;
+    for a:=1 to 10 do
+      begin
+        Write (a*b, ' ');
+      end;
+    {  Comment
+    for a:=1 to 10 do
+      begin
+        Write (a*b, ' 'ы);
+      end;
+     a b c d}
+  End.

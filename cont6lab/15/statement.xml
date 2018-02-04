@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="15" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;15</title>
+
+    <description><p>Деление двух неотрицательных десятичных чисел.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записаны два целых беззнаковых числа произвольной длины в десятичной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (целая часть числа, являющееся результатом деления первого числа на второе; если второе число равно 0, то вывести 0) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>3086412 5684</pre></input>
+      <output><pre>3086412 5684 543
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

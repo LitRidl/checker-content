@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="3" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;3</title>
+
+    <description><p>Зеркальное отражение двух десятичных слов относительно промежутка между ними.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записано два беззнаковых числа произвольной длины в десятичной системе счисления, возможно с ведущими нулями</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (два десятичных слова, полученных путем зеркального отражения исходных относительно разделителя с сохранением ведущих нулей) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>00987654321 1312000</pre></input>
+      <output><pre>00987654321 1312000 0002131 12345678900
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

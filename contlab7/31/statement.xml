@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="31" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;31</title>
+
+    <description><p>Составить алгоритм кодирования слова в латинском алфавите по Цезарю со сдвигом, равным 13 (см. шифр rot13).</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой последовательность малых латинских букв a-z.</p><br/>
+    </input_format>
+
+    <output_format><p>Последовательность малых латинских букв, полученная из исходной путём применения шифра rot13.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>icanhazcheeseburger</pre></input>
+      <output><pre>vpnaunmpurrfrohetre
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

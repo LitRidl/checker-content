@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="7" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;7</title>
+
+    <description><p>Составить алгоритм вычисления логического троичного сдвига первого числа влево на число разрядов второго числа.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой два троичных числа без знака (возможно, с ведущими нулями), разделенных знаком "&lt;".</p><br/>
+    </input_format>
+
+    <output_format><p>Троичное число, результат троичного логического сдвига.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>1110001221&lt;11</pre></input>
+      <output><pre>1000122100
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

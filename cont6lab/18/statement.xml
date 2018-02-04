@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="18" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;18</title>
+
+    <description><p>Вычисление предиката "u подслово w" в латинском алфавите.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записаны два слова произвольной длины в латинском алфавите</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (1 -- если первое слово является подсловом второго, 0 -- если нет) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>aabb abaabbab</pre></input>
+      <output><pre>aabb abaabbab 1
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

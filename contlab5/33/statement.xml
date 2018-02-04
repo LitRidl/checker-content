@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="33" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;33</title>
+
+    <description><p>Увеличение на единицу целого неотрицательного числа в восьмеричной системе счисления.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке целое неотрицательное число произвольной длины в восьмеричной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (целое число в восьмеричной системе счисления, результат инкрементирования исходного) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>777</pre></input>
+      <output><pre>777 1000
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

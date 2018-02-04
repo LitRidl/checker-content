@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="19" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;19</title>
+
+    <description><p>Составить алгоритм подсчёта количества десятеричных чисел.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой произвольную непустую последовательность беззнаковых десятичных чисел, разделённых знаком "#".</p><br/>
+    </input_format>
+
+    <output_format><p>Количество десятичных чисел, записанное в двоичной системе счисления.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>013#123#0#1000000</pre></input>
+      <output><pre>100
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

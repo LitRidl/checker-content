@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="1" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;1</title>
+
+    <description><p>Составить алгоритм вычисления суммы двух троичных чисел.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой два беззнаковых троичных числа (возможно, с ведущими нулями), разделённые знаком "+".</p><br/>
+    </input_format>
+
+    <output_format><p>Троичное число, сумма двух троичных чисел без ведущих нулей.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>0010+221</pre></input>
+      <output><pre>1001
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

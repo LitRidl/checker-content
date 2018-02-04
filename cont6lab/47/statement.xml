@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="47" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;47</title>
+
+    <description><p>Сокращение обыкновенных дроби в десятичной системе счисления.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке записаны через пробел два числа - числитель и знаменатель.</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (два числа через пробел - числитель и знаменатель, сокращениенной дроби) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>15 50</pre></input>
+      <output><pre>15 50 3 10
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

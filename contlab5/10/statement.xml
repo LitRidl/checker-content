@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="10" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;10</title>
+
+    <description><p>Вычисление логического произведения (&amp;&amp; в Си) двоичных чисел.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записано два беззнаковых числа произвольной длины в двоичной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (0 или 1 -- результат логического произведения) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>11010 111011</pre></input>
+      <output><pre>11010 111011 1
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

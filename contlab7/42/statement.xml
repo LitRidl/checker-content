@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="42" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;42</title>
+
+    <description><p>Проверка делимости десятичного числа на 11.</p><br/>
+    </description>
+
+    <input_format><p>Входное число представляет собой целое беззнаковое число произвольной длины в десятичной системе счисления.</p><br/>
+    </input_format>
+
+    <output_format><p>0 -- если не делится, 1 -- если делится.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>648</pre></input>
+      <output><pre>0
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="2" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;2</title>
+
+    <description><p>Составить алгоритм вычисления разности двух троичных чисел.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой два безннаковых троичных числа (возможно, с ведущими нулями), разделённые знаком "-", причём первое число не меньше второго</p><br/>
+    </input_format>
+
+    <output_format><p>Троичное число, разность двух троичных чисел без ведущих нулей.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>210-011</pre></input>
+      <output><pre>122
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

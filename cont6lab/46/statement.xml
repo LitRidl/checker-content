@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="46" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;46</title>
+
+    <description><p>Вычисление факториала числа в троичной системе счисления.</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке записано целое беззнаковое число произвольной длины в троичной системе счисления.</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (число в троичной системе счисления, равное факториалу исходного числа) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>21</pre></input>
+      <output><pre>21 20220200
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

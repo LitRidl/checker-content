@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="26" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;26</title>
+
+    <description><p>Вычисление поразрядной конъюнкции двух двоичных чисел (слова одинаковой длины).</p><br/>
+    </description>
+
+    <input_format><p>Во входной строке через пробел записано два беззнаковых числа произвольной равной длины в двоичной системе счисления</p><br/>
+    </input_format>
+
+    <output_format><p>Ответ (двоичное число, результат поразрядной конъюнкции исходных чисел без ведущих нулей) должен выводиться через пробел после входных данных, причём модификация исходных данных запрещена.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>110100 111011</pre></input>
+      <output><pre>110100 111011 110000
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

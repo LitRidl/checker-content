@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="32" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;32</title>
+
+    <description><p>Кодирование первого слова по коду Цезаря с ключом, равным второму слову.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой последовательность малых латинских букв a-z, за которой следует двоичное число.</p><br/>
+    </input_format>
+
+    <output_format><p>Исходное слово, закодированное по Цезарю с заданным ключом.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>hellobaby 10</pre></input>
+      <output><pre>rovvylkli
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

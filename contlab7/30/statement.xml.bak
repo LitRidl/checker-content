@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="30" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;30</title>
+
+    <description><p>Составить алгоритм вычисления логического произведения (&amp;&amp; в Си) двух беззнаковых двоичных чисел.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой два двоичных числа (возможно, с ведущими нулями), разделённых символом "&amp;&amp;".</p><br/>
+    </input_format>
+
+    <output_format><p>Двоичное число 0 или 1, результат логического произведения исходных чисел.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>0010&amp;&amp;10101</pre></input>
+      <output><pre>1
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

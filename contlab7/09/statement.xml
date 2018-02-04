@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="9" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;9</title>
+
+    <description><p>Вычисление двоичного логического сдвига второго числа влево на число разрядов, равное первому.</p><br/>
+    </description>
+
+    <input_format><p>Через пробел записано два беззнаковых числа произвольной длины (возможно, с ведущими нулями) в двоичной системе счисления, разделенных знаком "&lt;".</p><br/>
+    </input_format>
+
+    <output_format><p>Двоичное число, результат логического сдвига.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>11&lt;1001001010</pre></input>
+      <output><pre>1001010000
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="12" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;12</title>
+
+    <description><p>Вычисление двоичного арифметиеского сдвига второго числа вправо на число разрядов, равное первому числу.</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой два беззнаковых двоичных числа (возможно, с ведущими нулями), разделенные знаком "/".</p><br/>
+    </input_format>
+
+    <output_format><p>Двоичное число, результат арифметического сдвига.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>11/1001001010</pre></input>
+      <output><pre>1001001
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>

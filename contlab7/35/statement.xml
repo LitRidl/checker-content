@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem package="ru.ejudge.sample_contest" id="35" type="standard">
+  <statement language="ru_RU">
+    <title>Вариант &numero;35</title>
+
+    <description><p>Составить алгоритм двоичного подсчёта числа гласных в слове латинского алфавита (букву 'y' считать согласной).</p><br/>
+    </description>
+
+    <input_format><p>Входное слово представляет собой последовательность малых латинских букв a-z.</p><br/>
+    </input_format>
+
+    <output_format><p>Двоичное число без ведущих нулей, равное количеству гласных букв во входном слове.</p><br/>
+    </output_format>
+  </statement>
+
+  <examples>
+    <example>
+      <input><pre>icanhazcheeseburger</pre></input>
+      <output><pre>1000
+</pre>
+      </output>
+    </example>
+  </examples>
+</problem>
